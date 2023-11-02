@@ -5,6 +5,7 @@ let nextBtn = document.getElementById("nextBtn");
 scrollContainer.addEventListener("wheel", (e) => {
   e.preventDefault();
   scrollContainer.scrollLeft += e.deltaY;
+  scrollContainer.style.scrollBehavior = "auto";
 });
 
 nextBtn.addEventListener("click", () => {
