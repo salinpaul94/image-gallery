@@ -26,6 +26,8 @@ body {
 
 .gallary div img {
   width: 100%;
+  filter: grayscale(100%);
+  transition: transform 0.5s;
 }
 
 .gallary::-webkit-scrollbar {
