@@ -27,3 +27,7 @@ body {
 .gallary div img {
   width: 100%;
 }
+
+.gallary::-webkit-scrollbar {
+  display: none;
+}
