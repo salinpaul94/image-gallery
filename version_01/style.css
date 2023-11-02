@@ -4,6 +4,12 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
-body{
+
+body {
   background: #191919;
+}
+
+.gallary {
+  width: 900px;
+  display: flex;
 }
