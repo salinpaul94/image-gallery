@@ -13,3 +13,11 @@ body {
   width: 900px;
   display: flex;
 }
+
+.gallary div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
