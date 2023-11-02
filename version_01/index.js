@@ -10,3 +10,7 @@ scrollContainer.addEventListener("wheel", (e) => {
 nextBtn.addEventListener("click", () => {
   scrollContainer.scrollLeft += 300;
 });
+
+backBtn.addEventListener("click", () => {
+  scrollContainer.scrollLeft -= 300;
+});
