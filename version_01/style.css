@@ -31,3 +31,10 @@ body {
 .gallary::-webkit-scrollbar {
   display: none;
 }
+
+.gallary-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
