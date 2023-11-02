@@ -38,3 +38,10 @@ body {
   justify-content: center;
   margin: 10% auto;
 }
+
+#backBtn,
+#nextBtn {
+  width: 50px;
+  cursor: pointer;
+  margin: 40px;
+}
