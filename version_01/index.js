@@ -8,9 +8,11 @@ scrollContainer.addEventListener("wheel", (e) => {
 });
 
 nextBtn.addEventListener("click", () => {
-  scrollContainer.scrollLeft += 300;
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollLeft += 900;
 });
 
 backBtn.addEventListener("click", () => {
-  scrollContainer.scrollLeft -= 300;
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollLeft -= 900;
 });
